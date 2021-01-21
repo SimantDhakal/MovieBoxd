@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="30dp"
+    android:paddingTop="30dp"
+    android:background="@drawable/background_splash"
+    tools:context=".RegisterActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="viewStart"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="MOVIEBOXD"
+                android:textSize="24dp"
+                android:textColor="#333"
+                android:fontFamily="sans-serif-black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sophisticated and user friendly mobile reviewer"
+                android:paddingRight="15dp"
+                android:paddingLeft="15dp"
+                android:layout_marginBottom="30dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="25dp"
+                android:paddingBottom="25dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:background="@drawable/cardui"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sign up"
+                    android:textColor="#fafafa"
+                    android:textSize="22dp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Movieboxd needs your info to authenticate"
+                    android:textSize="13dp"
+                    android:textColor="#ccc"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="25dp"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:textColorHint="#ccc"
+                    android:textColor="#ccc"
+                    android:backgroundTint="#ccc"
+                    android:focusable="false"
+                    android:textSize="14dp"
+                    android:hint="Full name"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:inputType="textEmailAddress"
+                    android:textColorHint="#ccc"
+                    android:textColor="#ccc"
+                    android:backgroundTint="#ccc"
+                    android:focusable="false"
+                    android:textSize="14dp"
+                    android:hint="Email address"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:inputType="phone"
+                    android:textColorHint="#ccc"
+                    android:textColor="#ccc"
+                    android:backgroundTint="#ccc"
+                    android:focusable="false"
+                    android:textSize="14dp"
+                    android:hint="Phone number"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:inputType="textPassword"
+                    android:textColorHint="#ccc"
+                    android:textColor="#ccc"
+                    android:backgroundTint="#ccc"
+                    android:focusable="false"
+                    android:textSize="14dp"
+                    android:hint="Password"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:inputType="textPassword"
+                    android:textColorHint="#ccc"
+                    android:textColor="#ccc"
+                    android:backgroundTint="#ccc"
+                    android:focusable="false"
+                    android:textSize="14dp"
+                    android:hint="Confirm password"/>
+
+                <Button
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit_round"
+                    android:layout_marginTop="25dp"
+                    android:layout_gravity="end"
+                    android:text="Register"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Already have an account, "
+                    android:textSize="15dp"
+                    android:textAlignment="center"
+                    android:textColor="#333"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sign in"
+                    android:id="@+id/login"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:textColor="#333"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
